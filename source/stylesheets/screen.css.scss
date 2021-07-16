@@ -56,7 +56,7 @@ header{
   height: 60px;
   left: 0;
   top: 0;
-  background: #131625;
+  background: #333333;
   box-shadow: 0 1px 0 0 #000;
   z-index: 100;
   .flex_box{
@@ -154,7 +154,7 @@ header{
           color: #FFF;
         }
         &.current {
-          border-color: #357CE1;
+          border-color: #2483FF;
         }
       }
     }
@@ -165,14 +165,14 @@ header{
      height: 26px;
      line-height: 26px;
      text-align: center;
-     border: 1px solid #383F66;
-     color: #ADC1D5;
+     border: 1px solid #2483FF;
+     color: #2483FF;
      text-decoration: none;
      border-radius: 3px;
      transition: all 300ms;
      &:hover{
-        color: #357CE1;
-        border-color: #357CE1;
+        color: #2483FF;
+        border-color: #2483FF;
      }
   }
 
@@ -219,10 +219,10 @@ header{
       transition: all 300ms;
       margin-top: 35px;
       &::placeholder{
-        color: #61688A;
+        color: #357CE1;
       }
       &:active,&:focus{
-        border-color: $nav-active-text;
+        border-color: #fff;
       }
     }
 
@@ -230,7 +230,7 @@ header{
       position: absolute;
       top: 44px;
       left: $nav-padding + 8px;
-      color: #61688A;
+      color: #357CE1;
       @extend %icon-search;
     }
   }
@@ -287,7 +287,7 @@ header{
   // This is the currently selected ToC entry
   .toc-link.active {
     background-color: $nav-active-bg;
-    color: $nav-active-text;
+    color: $nav-text;
   }
 
   // this is parent links of the currently selected ToC entry
@@ -298,13 +298,13 @@ header{
 
   .toc-list-h2 {
     display: none;
-    background-color: #131625;
+    background-color: #1E2224;
     font-weight: 500;
 
     .toc-h2{
-      color: #61698A;
+      color: #ffffff;
       &.active{
-        color: #357CE1;
+        color: #ffffff;
       }
     }
   }
@@ -355,7 +355,7 @@ header{
     display: block;
     $side-pad: $main-padding / 2 - 8px;
     padding: $side-pad $side-pad $side-pad;
-    background-color: rgba($main-bg, 0.7);
+    background-color: rgba(243,247,249,0.7);
     transform-origin: 0 0;
     transform: rotate(-90deg) translate(-100%, 0);
     border-radius: 0 0 0 5px;
@@ -583,11 +583,11 @@ header{
     }
 
     tr:nth-child(odd)>td {
-      background-color: lighten($main-bg,4.2%);
+      background-color: #ffffff;
     }
 
     tr:nth-child(even)>td {
-      background-color: lighten($main-bg,2.4%);
+      background-color: #fbfcfd;
     }
   }
 
@@ -685,7 +685,7 @@ header{
 
 .content {
   pre, blockquote {
-    background-color: $code-bg;
+    background-color: #1E2224;
     color: #fff;
 
     margin: 0;
@@ -784,5 +784,5 @@ header{
 }
 
 .highlight, .highlight .w {
-  background-color: $code-bg;
+  background-color: #1E2224;
 }

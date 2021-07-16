@@ -23,31 +23,31 @@ under the License.
 
 // BACKGROUND COLORS
 ////////////////////
-$nav-bg: #171B2B !default;
-$examples-bg: #2D3040 !default;
+$nav-bg: #2E3336 !default;
+$examples-bg: #2E3336 !default;
 $code-bg: #1D2123 !default;
-$code-annotation-bg: #181C1E !default;
+$code-annotation-bg: #191D1F !default;
 $nav-subitem-bg: #171B2B !default;
-$nav-active-bg: #252A44 !default;
-$nav-active-parent-bg: #171B2B !default; // parent links of the current section
+$nav-active-bg: #357CE1 !default;
+$nav-active-parent-bg: #1E2224 !default; // parent links of the current section
 $nav-active-border: #357CE1 !default;
 $lang-select-border: #000 !default;
 $lang-select-bg: #131625 !default;
 $lang-select-active-bg: $examples-bg !default; // feel free to change this to blue or something
 $lang-select-pressed-bg: $examples-bg !default; // color of language tab bg when mouse is pressed
-$main-bg: #FFFFFF !default;
+$main-bg: #F3F7F9 !default;
 $aside-notice-bg: #357CE1 !default;
 $aside-warning-bg: #EF5656 !default;
 $aside-success-bg: #0DA88B !default;
-$search-notice-bg: #131625 !default;
+$search-notice-bg: #1E2224 !default;
 
 
 // TEXT COLORS
 ////////////////////
 $main-text: #596A7A !default; // main content text color
-$nav-text: #D2D6EC !default;
+$nav-text: #ffffff !default;
 $nav-active-text: #357CE1 !default;
-$nav-active-parent-text: #357CE1 !default; // parent links of the current section
+$nav-active-parent-text: #ffffff !default; // parent links of the current section
 $lang-select-text: #D2D6EC !default; // color of unselected language tab text
 $lang-select-active-text: #D2D6EC !default; // color of selected language tab text
 $lang-select-pressed-text: #D2D6EC !default; // color of language tab text when mouse is pressed
@@ -89,8 +89,8 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 
 // OTHER
 ////////////////////
-$nav-footer-border-color: #303759 !default;
-$search-box-border-color: #303759 !default;
+$nav-footer-border-color: #666 !default;
+$search-box-border-color: #666 !default;
 
 
 ////////////////////////////////////////////////////////////////////////////////
